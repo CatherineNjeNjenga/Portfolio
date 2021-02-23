@@ -1,0 +1,93 @@
+#Contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 9rem;
+  margin-bottom: 1rem;
+}
+
+#Contact h2 {
+  color: var(--primary-color);
+  font-size: 40px;
+}
+#Contact .contact-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#Contact .contact-desc p {
+  color: var(--secondary-color);
+  width: 75%;
+  font-size: 20px;
+}
+
+#Contact .contact_email {
+  display: flex;
+  justify-content: center;
+}
+
+#Contact .contact_email a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 1.5rem;
+  margin-top: 50px;
+  cursor: pointer;
+  color: var(--accent-color);
+  border: 0.2px solid var(--accent-color);
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  box-shadow: 2.5px 2.5px 0 1px var(--primary-color);
+  transition: 0.15s ease-in-out;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+#Contact .contact_email a:hover {
+  box-shadow: 0 0 0 0 var(--secondary-color);
+  top: 2.5px;
+  left: 2.5px;
+}
+
+#Contact .footer {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 14rem;
+  color: var(--secondary-color);
+}
+
+#Contact .footer p {
+  font-family: "Space Mono", monospace;
+}
+
+#Contact .footer p a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+#Contact .footer span {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#Contact .footer span:hover {
+  color: var(--accent-color);
+}
+
+#Contact .footer p a:hover {
+  color: var(--accent-color);
+}
+
+/* #Contact .footer p #me {
+  color: var(--accent-color);
+} */

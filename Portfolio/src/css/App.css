@@ -1,0 +1,19 @@
+.App {
+  width: 100%;
+}
+.App .content {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1185px;
+}
+
+@media (max-width: 1185px) {
+  .App .content {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 960px) {
+  .App .content {
+    padding: 0 2.5rem;
+  }
+}
