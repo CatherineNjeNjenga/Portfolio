@@ -1,5 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
+import { Link } from "react-scroll";
 import "../css/Introduction.css";
 
 const Introduction = () => {
@@ -85,9 +86,9 @@ const Introduction = () => {
         </a>
       </animated.div>
       <animated.div style={springAction} className="intro_action">
-        <a href="#projects" id="projects">
+        <Link to="Projects" smooth={true} duration={1000} offset={-55}>
           Projects
-        </a>
+        </Link>
         <a href="mailto:bryanyi1206@gmail.com" id="contactme">
           Contact Me
         </a>

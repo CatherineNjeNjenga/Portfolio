@@ -1,5 +1,6 @@
 import React from "react";
-import { useSpring, animated, config } from "react-spring";
+import { useSpring, animated } from "react-spring";
+import { Link } from "react-scroll";
 import "../css/NavBar.css";
 
 const NavBar = ({ hamburger }) => {
@@ -22,13 +23,19 @@ const NavBar = ({ hamburger }) => {
       <animated.div style={springNavBar} className="nav_links">
         <ul>
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="Projects" smooth={true} duration={1000} offset={-55}>
+              Projects
+            </Link>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="AboutMe" smooth={true} duration={1000} offset={-200}>
+              About
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact me</a>
+            <Link to="Contact" smooth={true} duration={1000}>
+              Contact me
+            </Link>
           </li>
         </ul>
         <button id="resume">Resume</button>
