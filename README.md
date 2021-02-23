@@ -1,1 +1,1 @@
-![demo](/frontend/public/images/bryan_portfolio.png)
+![demo](/public/images/bryan_portfolio.png)
