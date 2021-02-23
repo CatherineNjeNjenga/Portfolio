@@ -1,0 +1,72 @@
+#Introduction {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 9rem 0;
+  min-height: calc(100vh - 300px);
+}
+
+#Introduction .intro h1 {
+  font-family: "Space Mono", monospace;
+  color: var(--accent-color);
+  font-size: 16px;
+  margin-left: 0.3rem;
+}
+
+#Introduction .intro h2 {
+  color: var(--primary-color);
+  font-size: 75px;
+}
+
+#Introduction .intro h3 {
+  margin-top: 10px;
+
+  color: var(--secondary-color);
+  font-size: 80px;
+}
+
+#Introduction .intro_description p {
+  margin-top: 20px;
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-size: 20px;
+  width: 55%;
+}
+
+#Introduction .personal_links i {
+  margin-right: 2rem;
+  margin-top: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#Introduction .personal_links i:hover {
+  opacity: 0.8;
+}
+
+#Introduction .intro_action a {
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 50px;
+  margin-right: 2rem;
+  cursor: pointer;
+  color: var(--accent-color);
+  border: 0.2px solid var(--accent-color);
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: transparent;
+  font-size: 1rem;
+  box-shadow: 3px 3px 0 1px var(--primary-color);
+  transition: 0.15s ease-in-out;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+
+#Introduction .intro_action a:hover {
+  box-shadow: 0 0 0 0 var(--secondary-color);
+  top: 3px;
+  left: 3px;
+}
