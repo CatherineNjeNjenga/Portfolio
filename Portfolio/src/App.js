@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import aos from "aos";
+import "aos/dist/aos.css";
 import "./css/App.css";
 
 // COMPONENTS
@@ -12,7 +14,9 @@ import SideDrawer from "./components/SideDrawer";
 
 const App = () => {
   const [sideToggle, setSideToggle] = useState(false);
-
+  useEffect(() => {
+    aos.init();
+  }, []);
   return (
     <div className="App">
       <NavBar hamburger={() => setSideToggle(true)} />

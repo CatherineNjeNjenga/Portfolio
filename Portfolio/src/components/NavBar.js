@@ -1,16 +1,25 @@
 import React from "react";
+import { useSpring, animated, config } from "react-spring";
 import "../css/NavBar.css";
 
 const NavBar = ({ hamburger }) => {
+  const springNavBar = useSpring({
+    opacity: 1,
+    to: { opacity: 1, marginTop: 0 },
+    from: { opacity: 0, marginTop: -10 },
+    delay: 700,
+    config: { mass: 1, tension: 400, friction: 25 },
+  });
+
   return (
     <section className="NavBar">
-      <div className="name">
+      <animated.div style={springNavBar} className="name">
         <a href="/">
           <h1>BY</h1>
         </a>
-      </div>
+      </animated.div>
 
-      <div className="nav_links">
+      <animated.div style={springNavBar} className="nav_links">
         <ul>
           <li>
             <a href="#projects">Projects</a>
@@ -23,7 +32,7 @@ const NavBar = ({ hamburger }) => {
           </li>
         </ul>
         <button id="resume">Resume</button>
-      </div>
+      </animated.div>
 
       <div className="hamburger__menu" onClick={hamburger}>
         <div id="ham1"></div>

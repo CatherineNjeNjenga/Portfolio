@@ -4,12 +4,20 @@ import "../css/Projects.css";
 const Projects = () => {
   return (
     <section id="Projects">
-      <div className="projects_heading">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="projects_heading"
+      >
         <h2>My Projects</h2>
       </div>
 
       {/* Project 1 */}
-      <div className="projects_display">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="projects_display"
+      >
         <div className="project_content">
           <h3 className="project_title">E-Kars</h3>
           <div className="project_description">
@@ -44,7 +52,11 @@ const Projects = () => {
       </div>
 
       {/* Project 2 */}
-      <div className="projects_display">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        className="projects_display"
+      >
         <div className="right-project_content">
           <h3 className="project_title">World COVID19 Vaccinations</h3>
           <div className="right-project_description">

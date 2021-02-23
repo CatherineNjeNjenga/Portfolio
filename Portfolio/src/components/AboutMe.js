@@ -3,7 +3,7 @@ import "../css/AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <section id="AboutMe">
+    <section data-aos="fade-up" data-aos-duration="2000" id="AboutMe">
       <div className="aboutme_heading">
         <h2>About me</h2>
       </div>

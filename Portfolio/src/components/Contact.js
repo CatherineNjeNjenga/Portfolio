@@ -3,7 +3,7 @@ import "../css/Contact.css";
 
 const Contact = () => {
   return (
-    <section id="Contact">
+    <section data-aos="fade" data-aos-duration="1000" id="Contact">
       <h2>Let's Connect!</h2>
 
       <div className="contact-desc">
