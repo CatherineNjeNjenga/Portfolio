@@ -23,17 +23,17 @@ const NavBar = ({ hamburger }) => {
       <animated.div style={springNavBar} className="nav_links">
         <ul>
           <li>
-            <Link to="Projects" smooth={true} duration={1000} offset={-55}>
+            <Link to="Projects" smooth={true} duration={1000} offset={-200}>
               Projects
             </Link>
           </li>
           <li>
-            <Link to="AboutMe" smooth={true} duration={1000} offset={-200}>
+            <Link to="AboutMe" smooth={true} duration={1000} offset={-300}>
               About
             </Link>
           </li>
           <li>
-            <Link to="Contact" smooth={true} duration={1000}>
+            <Link to="Contact" smooth={true} duration={1050}>
               Contact me
             </Link>
           </li>

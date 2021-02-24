@@ -37,7 +37,7 @@ const Projects = () => {
               <a href="https://github.com/bryanyi/E-Kars">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="#">
+              <a href="https://e-kars.herokuapp.com/">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
 
         <div className="project_image">
-          <a href="#Projects">
+          <a href="https://e-kars.herokuapp.com/">
             <img src="/images/ekars.png" alt="E-Kars Project" />
           </a>
         </div>
@@ -76,7 +76,7 @@ const Projects = () => {
               <a href="https://github.com/bryanyi/World-COVID19-Vaccine">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="#">
+              <a href="https://world-covid-vaccinations.herokuapp.com/">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -84,7 +84,7 @@ const Projects = () => {
         </div>
 
         <div className="right-project_image">
-          <a href="#Projects">
+          <a href="https://world-covid-vaccinations.herokuapp.com/">
             <img
               src="/images/covidvaccinations.png"
               alt="COVID Vaccination Project"
