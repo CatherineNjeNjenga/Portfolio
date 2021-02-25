@@ -24,7 +24,11 @@ const Projects = () => {
             <p>
               E-Kars is a (hypothetical) full-stack e-Commerce project that
               sells used electric cars. Features include full user
-              authentication and Stripe payment system.
+              authentication and Stripe payment system.{" "}
+              <span id="heroku">
+                Heroku taking too long? View the gifs in my github{" "}
+                <a href="https://github.com/bryanyi/E-Kars">HERE.</a>
+              </span>
             </p>
             <ul className="project_tech">
               <li>React.js/Redux</li>

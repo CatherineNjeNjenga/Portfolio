@@ -88,6 +88,8 @@
   color: var(--accent-color);
 }
 
-/* #Contact .footer p #me {
-  color: var(--accent-color);
-} */
+@media (max-width: 700px) {
+  #Contact .contact-desc p {
+    width: 100%;
+  }
+}

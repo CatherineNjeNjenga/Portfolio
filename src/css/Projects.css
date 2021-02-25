@@ -49,6 +49,16 @@
   z-index: 2;
   background: transparent;
 }
+#Projects #heroku a {
+  text-decoration: underline;
+  background: transparent;
+  color: var(--accent-color);
+}
+
+#Projects #heroku {
+  background: transparent;
+  color: var(--accent-color);
+}
 
 #Projects .project_tech {
   display: flex;
@@ -207,30 +217,37 @@
   font-size: 18px;
 }
 
+/* ===================== RESPONSIVENESS =====================*/
 @media (max-width: 1100px) {
   #Projects .project_image img {
-    opacity: 0.2;
+    opacity: 0.19;
+    box-shadow: none;
   }
   #Projects .right-project_image img {
-    opacity: 0.2;
+    opacity: 0.19;
+    box-shadow: none;
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 768px) {
+  #Projects p {
+    background: transparent;
+  }
+
   #Projects .project_content {
-    grid-column: 3/17;
+    grid-column: 1/17;
   }
 
   #Projects .right-project_content {
-    grid-column: 3/17;
+    grid-column: 1/17;
   }
 
   #Projects .right-project_image {
-    grid-column: 3/17;
+    grid-column: 1/17;
   }
 
   #Projects .projects_display .project_image {
-    grid-column: 3/17;
+    grid-column: 1/17;
   }
 
   #Projects .project_content {

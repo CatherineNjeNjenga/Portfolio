@@ -103,3 +103,9 @@
     display: flex;
   }
 }
+
+@media (max-width: 384px) {
+  .NavBar {
+    margin: 1rem 0.7rem;
+  }
+}

@@ -17,3 +17,14 @@
     padding: 0 2.5rem;
   }
 }
+@media (max-width: 545px) {
+  .App .content {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 384px) {
+  .App .content {
+    padding: 0 1rem;
+  }
+}

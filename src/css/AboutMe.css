@@ -76,6 +76,15 @@
 }
 
 @media (max-width: 970px) {
+  #AboutMe {
+    margin: 20rem 0;
+  }
+  #AboutMe {
+    padding: 0 2rem;
+  }
+  #AboutMe .aboutme_heading {
+    margin-bottom: 2.5rem;
+  }
   #AboutMe .aboutme_content {
     flex-direction: column;
   }
@@ -90,5 +99,36 @@
     box-shadow: 0 0 0 0 var(--primary-color);
     top: 0;
     left: 0;
+  }
+
+  #AboutMe .description ul {
+    grid-template-columns: repeat(4, minmax(140px, 100px));
+  }
+}
+
+@media (max-width: 620px) {
+  #AboutMe .description p {
+    font-size: 18px;
+  }
+  #AboutMe .description ul {
+    grid-template-columns: repeat(4, minmax(130px, 100px));
+  }
+
+  #AboutMe .description ul li {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 555px) {
+  #AboutMe {
+    padding: 0 0.5rem;
+  }
+  #AboutMe .description ul {
+    grid-template-columns: repeat(4, minmax(110px, 100px));
+  }
+}
+@media (max-width: 490px) {
+  #AboutMe .description ul {
+    grid-template-columns: repeat(2, minmax(140px, 100px));
   }
 }
