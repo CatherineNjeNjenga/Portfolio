@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/SideDrawer.css";
+import { Link } from "react-scroll";
 
 const SideDrawer = ({ show, click }) => {
   const sideDrawerClass = ["sidedrawer"];
@@ -12,15 +13,21 @@ const SideDrawer = ({ show, click }) => {
     <div className={sideDrawerClass.join(" ")}>
       <ul className="sidedrawer__links" onClick={click}>
         <li>
-          <a href="#projects">Projects</a>
+          <Link to="Projects" smooth={true} duration={1000} offset={-200}>
+            Projects
+          </Link>
         </li>
 
         <li>
-          <a href="#about">Your Account</a>
+          <Link to="AboutMe" smooth={true} duration={1000} offset={-300}>
+            About
+          </Link>
         </li>
 
         <li>
-          <a href="#Contact">Contact Me</a>
+          <Link to="Contact" smooth={true} duration={1050}>
+            Contact me
+          </Link>
         </li>
         <li>
           <a href="#" id="backdrop_resume">
