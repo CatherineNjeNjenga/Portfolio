@@ -26,7 +26,7 @@ const Contact = () => {
         </p>
         <p>
           Design inspired by{" "}
-          <a href="https://github.com/bchiang7/v4">Brittany Chiang</a>
+          <a href="https://github.com/bchiang7">Brittany Chiang</a>
         </p>
       </div>
     </section>

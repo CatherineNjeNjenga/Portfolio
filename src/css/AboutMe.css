@@ -1,5 +1,5 @@
 #AboutMe {
-  margin: 25rem 0 25rem 0;
+  margin: 25rem 0 15rem 0;
   padding: 0 5rem;
 }
 #me {
@@ -75,9 +75,11 @@
   color: var(--secondary-color);
 }
 
+/* ===================== RESPONSIVENESS =====================*/
+
 @media (max-width: 970px) {
   #AboutMe {
-    margin: 20rem 0;
+    margin: 10rem 0;
   }
   #AboutMe {
     padding: 0 2rem;

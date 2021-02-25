@@ -28,12 +28,12 @@ const NavBar = ({ hamburger }) => {
             </Link>
           </li>
           <li>
-            <Link to="AboutMe" smooth={true} duration={1000} offset={-300}>
+            <Link to="AboutMe" smooth={true} duration={1000} offset={-200}>
               About
             </Link>
           </li>
           <li>
-            <Link to="Contact" smooth={true} duration={1050}>
+            <Link to="Contact" smooth={true} duration={1000}>
               Contact me
             </Link>
           </li>

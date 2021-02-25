@@ -89,9 +89,9 @@ const Introduction = () => {
         <Link to="Projects" smooth={true} duration={1000} offset={-55}>
           Projects
         </Link>
-        <a href="mailto:bryanyi1206@gmail.com" id="contactme">
-          Contact Me
-        </a>
+        <Link to="Contact" smooth={true} duration={1050}>
+          Contact me
+        </Link>
       </animated.div>
     </section>
   );
