@@ -10,6 +10,9 @@ const Projects = () => {
         className="projects_heading"
       >
         <h2>My Projects</h2>
+        <div id="heroku">
+          Heroku taking too long? View detailed gifs in my github links!
+        </div>
       </div>
 
       {/* Project 1 */}
@@ -24,11 +27,8 @@ const Projects = () => {
             <p>
               E-Kars is a (hypothetical) full-stack e-Commerce project that
               sells used electric cars. Features include full user
-              authentication and Stripe payment system.{" "}
-              <span id="heroku">
-                Heroku taking too long? View the gifs in my github{" "}
-                <a href="https://github.com/bryanyi/E-Kars">HERE.</a>
-              </span>
+              authentication, Stripe payment system, and Redux to manage
+              multiple levels of state and actions.
             </p>
             <ul className="project_tech">
               <li>React.js/Redux</li>
@@ -66,9 +66,9 @@ const Projects = () => {
           <div className="right-project_description">
             <p>
               How many COVID19 vaccinations have been done in other countries?
-              This application shows you visual data about how many total people
-              have been vaccinated, which vaccination was used, and which
-              country has performed the most vaccinations.
+              This application shows you visual data about how many people have
+              been vaccinated, which vaccination was used, and which country has
+              performed the most vaccinations.
             </p>
             <ul className="right-project_tech">
               <li>React.js</li>

@@ -1,7 +1,10 @@
 #Projects .projects_heading {
+  width: 100%;
   color: var(--primary-color);
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-bottom: 5rem;
 }
 #Projects .projects_heading h2 {
@@ -49,13 +52,16 @@
   z-index: 2;
   background: transparent;
 }
-#Projects #heroku a {
-  text-decoration: underline;
+
+#Projects #heroku {
+  text-align: center;
+  margin-top: 2rem;
   background: transparent;
   color: var(--accent-color);
 }
 
-#Projects #heroku {
+#Projects #heroku a {
+  text-decoration: underline;
   background: transparent;
   color: var(--accent-color);
 }
@@ -119,6 +125,7 @@
 
 #Projects .project_links a {
   background: transparent;
+  transition: 0.5s;
 }
 #Projects .project_links a i {
   background: transparent;
@@ -159,6 +166,7 @@
   background: transparent;
 }
 #Projects .right-project_links a {
+  transition: 0.5s;
   background: transparent;
 }
 #Projects .right-project_links a i {

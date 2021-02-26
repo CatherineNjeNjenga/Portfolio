@@ -77,21 +77,31 @@
   margin-left: 1rem;
 }
 
+.NavBar .hamburger__menu:hover #ham2 {
+  width: 80%;
+}
+
+.NavBar .hamburger__menu:hover #ham3 {
+  width: 55%;
+}
+
 .NavBar .hamburger__menu > div {
   width: 100%;
   height: 1.4px;
   background-color: var(--accent-color);
+  transition: 0.5s;
 }
-.NavBar .hamburger__menu > #ham2 {
+
+/* .NavBar .hamburger__menu > #ham2 {
   width: 80%;
 }
 
 .NavBar .hamburger__menu > #ham3 {
   width: 60%;
-}
+} */
 
 .NavBar .hamburger__menu:hover > div {
-  background: #171717;
+  background: var(--primary-color);
 }
 
 @media (max-width: 960px) {

@@ -17,7 +17,7 @@ const AboutMe = () => {
           </p>
 
           <p>
-            I always aim to create products that clients are proud of, and to
+            My goal is to create products that clients are proud of, and to
             architect clean and readable code.
           </p>
           <p>Here are a few technologies I have been working with lately:</p>

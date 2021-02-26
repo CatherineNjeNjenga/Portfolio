@@ -41,11 +41,15 @@ const NavBar = ({ hamburger }) => {
         <button id="resume">Resume</button>
       </animated.div>
 
-      <div className="hamburger__menu" onClick={hamburger}>
+      <animated.div
+        style={springNavBar}
+        className="hamburger__menu"
+        onClick={hamburger}
+      >
         <div id="ham1"></div>
         <div id="ham2"></div>
         <div id="ham3"></div>
-      </div>
+      </animated.div>
     </section>
   );
 };
