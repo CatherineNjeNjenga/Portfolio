@@ -35,7 +35,7 @@
 
 .sidedrawer__links #backdrop_resume {
   text-decoration: none;
-  margin: 1rem 5rem;
+  margin: 1rem 15rem;
   cursor: pointer;
   color: var(--accent-color);
   border: 0.2px solid var(--accent-color);
