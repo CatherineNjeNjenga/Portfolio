@@ -80,7 +80,7 @@ const Projects = () => {
               <a href="https://github.com/bryanyi/World-COVID19-Vaccine">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://eager-thompson-baa4b8.netlify.app/">
+              <a href="https://world-covid-vaccinations.netlify.app/">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
 
         <div className="right-project_image">
-          <a href="https://eager-thompson-baa4b8.netlify.app/">
+          <a href="https://world-covid-vaccinations.netlify.app/">
             <img
               src="/images/covidvaccinations.png"
               alt="COVID Vaccination Project"
