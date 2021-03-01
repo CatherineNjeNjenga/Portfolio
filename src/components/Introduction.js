@@ -75,13 +75,25 @@ const Introduction = () => {
       </animated.div>
 
       <animated.div style={springLinks} className="personal_links">
-        <a href="https://www.linkedin.com/in/bryantaeyi/">
+        <a
+          href="https://www.linkedin.com/in/bryantaeyi/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/bryanyi">
+        <a
+          href="https://github.com/bryanyi"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-github"></i>
         </a>
-        <a href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit">
+        <a
+          href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="far fa-file"></i>
         </a>
       </animated.div>
