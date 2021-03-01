@@ -243,14 +243,12 @@
   }
 
   #Projects .project_content {
+    text-align: center;
     grid-column: 1/17;
   }
 
   #Projects .right-project_content {
-    grid-column: 1/17;
-  }
-
-  #Projects .right-project_image {
+    text-align: center;
     grid-column: 1/17;
   }
 
@@ -258,27 +256,20 @@
     grid-column: 1/17;
   }
 
-  #Projects .project_content {
-    text-align: center;
-  }
-
-  #Projects .right-project_tech {
-    text-align: center;
-  }
-  #Projects .project_tech {
-    justify-content: center;
-  }
-  #Projects .right-project_tech {
-    justify-content: center;
+  #Projects .right-project_image {
+    grid-column: 1/17;
   }
 
   #Projects .project_tech {
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     margin-top: 1.5rem;
   }
 
   #Projects .right-project_tech {
+    text-align: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     margin-top: 1.5rem;

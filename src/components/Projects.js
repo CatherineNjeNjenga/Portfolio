@@ -38,10 +38,10 @@ const Projects = () => {
               <li>SendGrid</li>
             </ul>
             <div className="project_links">
-              <a href="https://github.com/bryanyi/E-Kars">
+              <a href="https://github.com/bryanyi/E-Kars" target="_blank">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://e-kars.herokuapp.com/">
+              <a href="https://e-kars.herokuapp.com/" target="_blank">
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -49,7 +49,7 @@ const Projects = () => {
         </div>
 
         <div className="project_image">
-          <a href="https://e-kars.herokuapp.com/">
+          <a href="https://e-kars.herokuapp.com/" target="_blank">
             <img src="/images/ekars.png" alt="E-Kars Project" />
           </a>
         </div>
@@ -77,10 +77,16 @@ const Projects = () => {
               <li>Chart.js</li>
             </ul>
             <div className="right-project_links">
-              <a href="https://github.com/bryanyi/World-COVID19-Vaccine">
+              <a
+                href="https://github.com/bryanyi/World-COVID19-Vaccine"
+                target="_blank"
+              >
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://world-covid-vaccinations.netlify.app/">
+              <a
+                href="https://world-covid-vaccinations.netlify.app/"
+                target="_blank"
+              >
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -88,7 +94,10 @@ const Projects = () => {
         </div>
 
         <div className="right-project_image">
-          <a href="https://world-covid-vaccinations.netlify.app/">
+          <a
+            href="https://world-covid-vaccinations.netlify.app/"
+            target="_blank"
+          >
             <img
               src="/images/covidvaccinations.png"
               alt="COVID Vaccination Project"
