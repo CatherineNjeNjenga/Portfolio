@@ -38,10 +38,18 @@ const Projects = () => {
               <li>SendGrid</li>
             </ul>
             <div className="project_links">
-              <a href="https://github.com/bryanyi/E-Kars" target="_blank">
+              <a
+                href="https://github.com/bryanyi/E-Kars"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-github"></i>
               </a>
-              <a href="https://e-kars.herokuapp.com/" target="_blank">
+              <a
+                href="https://e-kars.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-external-link-alt"></i>
               </a>
             </div>
@@ -49,7 +57,11 @@ const Projects = () => {
         </div>
 
         <div className="project_image">
-          <a href="https://e-kars.herokuapp.com/" target="_blank">
+          <a
+            href="https://e-kars.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/images/ekars.png" alt="E-Kars Project" />
           </a>
         </div>
@@ -80,12 +92,14 @@ const Projects = () => {
               <a
                 href="https://github.com/bryanyi/World-COVID19-Vaccine"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-github"></i>
               </a>
               <a
                 href="https://world-covid-vaccinations.netlify.app/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fas fa-external-link-alt"></i>
               </a>
@@ -97,6 +111,7 @@ const Projects = () => {
           <a
             href="https://world-covid-vaccinations.netlify.app/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src="/images/covidvaccinations.png"
