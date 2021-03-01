@@ -42,7 +42,13 @@ const SideDrawer = ({ show, click }) => {
           </Link>
         </li>
         <li>
-          <a href="#" id="backdrop_resume" onClick={click}>
+          <a
+            id="backdrop_resume"
+            onClick={click}
+            href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </li>

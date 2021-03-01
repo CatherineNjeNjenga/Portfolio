@@ -61,6 +61,11 @@
   left: 0;
 }
 
+.NavBar .nav_links #resume a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
 .NavBar .nav_links #resume:hover {
   box-shadow: 0 0 0 0 var(--secondary-color);
   top: 3px;

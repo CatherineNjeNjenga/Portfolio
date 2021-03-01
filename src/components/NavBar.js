@@ -38,7 +38,15 @@ const NavBar = ({ hamburger }) => {
             </Link>
           </li>
         </ul>
-        <button id="resume">Resume</button>
+        <button id="resume">
+          <a
+            href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </button>
       </animated.div>
 
       <animated.div
