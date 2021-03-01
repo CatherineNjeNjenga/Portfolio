@@ -81,7 +81,7 @@ const Introduction = () => {
         <a href="https://github.com/bryanyi">
           <i className="fab fa-github"></i>
         </a>
-        <a href="#">
+        <a href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit">
           <i className="far fa-file"></i>
         </a>
       </animated.div>
