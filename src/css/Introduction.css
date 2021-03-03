@@ -3,7 +3,7 @@
   flex-direction: column;
   text-align: start;
   padding: 9rem 0;
-  min-height: calc(100vh - 300px);
+  min-height: calc(100vh - 250px);
 }
 
 #Introduction .intro h1 {
