@@ -25,10 +25,10 @@ const Projects = () => {
           <h3 className="project_title">E-Kars</h3>
           <div className="project_description">
             <p>
-              E-Kars is a (hypothetical) full-stack e-Commerce project that
-              sells used electric cars. Features include full user
-              authentication, Stripe payment system, and Redux to manage
-              multiple levels of state and actions.
+              E-Kars is a (conceptual) full-stack e-Commerce project that sells
+              used electric cars. Features include full user authentication,
+              Stripe payment system, and Redux to manage multiple levels of
+              state and actions.
             </p>
             <ul className="project_tech">
               <li>React.js/Redux</li>
