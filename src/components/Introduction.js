@@ -64,7 +64,7 @@ const Introduction = () => {
         <animated.h1 style={springH1}>Hi, my name is</animated.h1>
         <animated.h2 style={springH2}>Bryan Yi.</animated.h2>
         <animated.h3 style={springH3}>
-          I'm a Front-End Web Developer.
+          I'm a Full-Stack Web Developer.
         </animated.h3>
       </div>
       <animated.div style={springDesc} className="intro_description">

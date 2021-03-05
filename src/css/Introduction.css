@@ -166,7 +166,13 @@
   }
   #Introduction .personal_links i {
     margin-top: 1.3rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  #Introduction .intro_action,
+  .personal_links {
+    display: flex;
+    justify-content: space-around;
   }
   #Introduction .intro_action a {
     margin-top: 1.3rem;
