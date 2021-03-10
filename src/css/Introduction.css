@@ -38,7 +38,7 @@
   color: var(--primary-color);
   font-size: 2rem;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 #Introduction .personal_links i:hover {

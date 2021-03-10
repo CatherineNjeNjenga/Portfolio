@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import aos from "aos";
 import "aos/dist/aos.css";
 import "./css/App.css";
@@ -11,6 +12,8 @@ import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Backdrop from "./components/Backdrop";
 import SideDrawer from "./components/SideDrawer";
+import worldcovidvaccinations from "./components/worldcovidvaccinations";
+import ekars from "./components/ekars";
 
 const App = () => {
   const [sideToggle, setSideToggle] = useState(false);
@@ -27,6 +30,16 @@ const App = () => {
         <Projects />
         <AboutMe />
         <Contact />
+        <Router>
+          <Switch>
+            <Route exact path="/e-kars" component={ekars} />
+            <Route
+              exact
+              path="/world-covid19-vaccinations"
+              component={worldcovidvaccinations}
+            />
+          </Switch>
+        </Router>
       </div>
     </div>
   );

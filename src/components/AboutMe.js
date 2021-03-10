@@ -6,6 +6,33 @@ const AboutMe = () => {
     <section data-aos="fade-up" data-aos-duration="2000" id="AboutMe">
       <div className="aboutme_heading">
         <h2>About me</h2>
+
+        <div className="aboutme__links">
+          <a
+            href="https://www.linkedin.com/in/bryantaeyi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/bryanyi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+
+          <button>
+            <a
+              href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </button>
+        </div>
       </div>
 
       <div className="aboutme_content">

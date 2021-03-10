@@ -97,14 +97,6 @@
   transition: 0.5s;
 }
 
-/* .NavBar .hamburger__menu > #ham2 {
-  width: 80%;
-}
-
-.NavBar .hamburger__menu > #ham3 {
-  width: 60%;
-} */
-
 .NavBar .hamburger__menu:hover > div {
   background: var(--primary-color);
 }
