@@ -12,8 +12,8 @@ import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Backdrop from "./components/Backdrop";
 import SideDrawer from "./components/SideDrawer";
-import worldcovidvaccinations from "./components/worldcovidvaccinations";
-import ekars from "./components/ekars";
+import worldcovidvaccinationsScreen from "./components/worldcovidvaccinationsScreen";
+import ekarsScreen from "./components/ekarsScreen";
 
 const App = () => {
   const [sideToggle, setSideToggle] = useState(false);
@@ -32,11 +32,11 @@ const App = () => {
         <Contact />
         <Router>
           <Switch>
-            <Route exact path="/e-kars" component={ekars} />
+            <Route exact path="/e-kars" component={ekarsScreen} />
             <Route
               exact
               path="/world-covid19-vaccinations"
-              component={worldcovidvaccinations}
+              component={worldcovidvaccinationsScreen}
             />
           </Switch>
         </Router>
