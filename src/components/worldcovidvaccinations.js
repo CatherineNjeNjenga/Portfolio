@@ -4,7 +4,7 @@ const worldcovidvaccinationsScreen = () => {
   return (
     <div className="worldcovidvaccinationsScreen">
       <div className="title">
-        <h1>E-Kars</h1>
+        <h1>World COVID19 Vaccinations</h1>
       </div>
       <div className="key__features"></div>
 
