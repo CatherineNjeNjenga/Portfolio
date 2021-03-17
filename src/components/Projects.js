@@ -35,7 +35,7 @@ const Projects = () => {
               <li>Node.js/Express</li>
               <li>MongoDB/Mongoose</li>
               <li>Stripe</li>
-              <li>SendGrid</li>
+              <li>NodeMailer</li>
             </ul>
             <div className="project_links">
               <a
