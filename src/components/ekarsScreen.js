@@ -28,11 +28,20 @@ const ekarsScreen = () => {
             </li>
           </ul>
         </div>
-        <div className="image"></div>
+        <div className="image">
+          <img src="/images/ekars.png" alt="ekars" />
+        </div>
       </div>
 
       <div className="project__details">
-        <div className="project__introduction"></div>
+        <div className="project__introduction">
+          <div className="img"></div>
+          <div className="description">
+            E-Kars is a conceptual project that exemplifies the intricacies
+            behind an e-Commerce application. On this page, you will find more
+            technical details on how I built E-Kars.
+          </div>
+        </div>
         <div className="product__page"></div>
         <div className="cart__checkout"></div>
         <div className="auth"></div>
