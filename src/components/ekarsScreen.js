@@ -35,7 +35,7 @@ const ekarsScreen = () => {
 
       <div className="project__details">
         <div className="project__introduction">
-          <div className="img"></div>
+          <div className="image"></div>
           <div className="description">
             E-Kars is a conceptual project that exemplifies the intricacies
             behind an e-Commerce application. On this page, you will find more
@@ -50,7 +50,14 @@ const ekarsScreen = () => {
           </div>
           <div className="image"></div>
         </div>
-        <div className="cart__checkout"></div>
+        <div className="cart__checkout">
+          <div className="image"></div>
+          <div className="desc">
+            Clicking "Add to Cart" takes the id of the item, and renders it on
+            the cart page. The redux action is responsible for taking the
+            specific car to the Redux store.
+          </div>
+        </div>
         <div className="auth"></div>
       </div>
     </div>
