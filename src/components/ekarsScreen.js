@@ -42,7 +42,14 @@ const ekarsScreen = () => {
             technical details on how I built E-Kars.
           </div>
         </div>
-        <div className="product__page"></div>
+        <div className="product__page">
+          <div className="desc">
+            Data is pulled from MongoDB to display the cars on this product
+            page. The sidebar and the navbar stores it's input values into the
+            Redux store, then filtered on this page.
+          </div>
+          <div className="image"></div>
+        </div>
         <div className="cart__checkout"></div>
         <div className="auth"></div>
       </div>
