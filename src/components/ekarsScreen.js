@@ -58,7 +58,10 @@ const ekarsScreen = () => {
             specific car to the Redux store.
           </div>
         </div>
-        <div className="auth"></div>
+        <div className="auth">
+          I utilized Mongoose to created custom methods on the User model to
+          handle authentication with Json Web Tokens and Bcrypt.
+        </div>
       </div>
     </div>
   );
