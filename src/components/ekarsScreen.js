@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/ekarsScreen.css";
 
 const ekarsScreen = () => {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/worldcovidvaccinations.css";
 
 const worldcovidvaccinationsScreen = () => {
   return (
