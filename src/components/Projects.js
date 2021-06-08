@@ -92,7 +92,7 @@ const Projects = () => {
             </ul>
             <div className="right-project_links">
               <a
-                href="https://github.com/bryanyi/World-COVID19-Vaccine"
+                href="https://github.com/bryanyi/COVID-Vaccination-Tracker"
                 target="_blank"
                 rel="noopener noreferrer"
               >
