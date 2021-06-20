@@ -51,7 +51,9 @@ const AboutMe = () => {
 
           <ul className="skills">
             <li>React.js/Redux</li>
-            <li>Javascript (ES6+)</li>
+            <li>Javascript(ES6+)/Typescript</li>
+            <li>Gatsby.js</li>
+            <li>GraphQL</li>
             <li>Node.js/Express</li>
             <li>Python/Django</li>
             <li>mySQL</li>
