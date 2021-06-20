@@ -39,8 +39,8 @@ const AboutMe = () => {
         <div className="description">
           <p>
             Hi there! I'm <span id="me">Bryan</span>, a Web Developer based in
-            Los Angeles, CA, and I love creating web applications that people
-            can enjoy and use.
+            Southern California, and I love creating web applications that
+            people can enjoy and use.
           </p>
 
           <p>

@@ -69,7 +69,7 @@ const Introduction = () => {
       </div>
       <animated.div style={springDesc} className="intro_description">
         <p>
-          I'm a web developer based in Los Angeles, CA with a passion for
+          I'm a web developer based in Southern California with a passion for
           building extraordinary websites and applications.
         </p>
       </animated.div>
