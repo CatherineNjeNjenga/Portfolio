@@ -51,15 +51,15 @@ const AboutMe = () => {
 
           <ul className="skills">
             <li>React.js/Redux</li>
-            <li>Javascript(ES6+)/Typescript</li>
-            <li>Gatsby.js</li>
+            <li>Javascript(ES6+)</li>
+            <li>Typescript</li>
+            <li>Next.js</li>
             <li>GraphQL</li>
             <li>Node.js/Express</li>
-            <li>Python/Django</li>
-            <li>mySQL</li>
-            <li>HTML/CSS</li>
+            <li>Python/Flask</li>
+            <li>Postgresql</li>
+            <li>HTML/CSS/SASS</li>
             <li>MongoDB/Mongoose</li>
-            <li>Shopify/Liquid</li>
           </ul>
         </div>
         <div className="image">
