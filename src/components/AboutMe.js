@@ -25,7 +25,7 @@ const AboutMe = () => {
 
           <button>
             <a
-              href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit"
+              href="./BryanYi_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -50,16 +50,14 @@ const AboutMe = () => {
           <p>Here are a few technologies I have been working with lately:</p>
 
           <ul className="skills">
-            <li>React.js/Redux</li>
-            <li>Javascript(ES6+)</li>
+            <li>Next.js/Redux</li>
             <li>Typescript</li>
-            <li>Next.js</li>
+            <li>Javascript(ES6+)</li>
+            <li>SASS/SCSS</li>
             <li>GraphQL</li>
             <li>Node.js/Express</li>
-            <li>Python/Flask</li>
             <li>Postgresql</li>
-            <li>HTML/CSS/SASS</li>
-            <li>MongoDB/Mongoose</li>
+            <li>Shopify</li>
           </ul>
         </div>
         <div className="image">

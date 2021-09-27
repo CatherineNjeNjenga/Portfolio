@@ -1,0 +1,13 @@
+#worksection .worksection_heading {
+  width: 100%;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+#worksection .worksection_heading h2{
+    font-size: 32px;
+}

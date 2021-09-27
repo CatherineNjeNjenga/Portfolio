@@ -40,7 +40,7 @@ const NavBar = ({ hamburger }) => {
         </ul>
         <button id="resume">
           <a
-            href="https://docs.google.com/document/d/1fu_jzBa3l6l2ldxZFBvuvKCqLb6O8wGtmDUzl1or7XQ/edit"
+            href="./BryanYi_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
