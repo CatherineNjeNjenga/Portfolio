@@ -46,7 +46,7 @@ const Ekars = () => {
 
       <div className="right-project_image">
         <a
-          href="bryanyiapps.com"
+          href="https://bryanyiapps.com"
           target="_blank"
           rel="noopener noreferrer"
         >
