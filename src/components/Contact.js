@@ -8,9 +8,9 @@ const Contact = () => {
 
       <div className="contact-desc">
         <p>
-          I am currently looking for new opportunities to advance my career in
-          Web Development. If you would like to connect, please feel free to
-          email any time!
+          Although I’m not currently looking for any new opportunities, my inbox
+          is always open. Whether you have a question or just want to say hi,
+          I’ll try my best to get back to you!
         </p>
       </div>
 
