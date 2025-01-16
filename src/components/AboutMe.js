@@ -38,7 +38,7 @@ const AboutMe = () => {
       <div className="aboutme_content">
         <div className="description">
           <p>
-            Hi there! I'm <span id="me">Bryan</span>, a Web Developer based in
+            Hi there! I'm <span id="me">Catherine</span>, a Web Developer based in
             Southern California, and I love creating web applications that
             people can enjoy and use.
           </p>
