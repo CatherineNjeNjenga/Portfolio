@@ -5,7 +5,7 @@ const ekarsScreen = () => {
   return (
     <div className="e-kars">
       <div className="title">
-        <h1>E-Kars</h1>
+        <h1>BragList</h1>
       </div>
       <div className="key__features">
         <div className="features__list">
@@ -21,7 +21,7 @@ const ekarsScreen = () => {
             </li>
             <li>
               Retrieving forgotten passwords with{" "}
-              <span className="feat_emph">SendGrid</span>
+              <span className="feat_emph">Brevo</span>
             </li>
             <li>
               Managing React.js state with{" "}

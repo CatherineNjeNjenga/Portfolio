@@ -16,7 +16,7 @@ const NavBar = ({ hamburger }) => {
     <section className="NavBar">
       <animated.div style={springNavBar} className="name">
         <a href="/">
-          <h1>BY</h1>
+          <h1>CN</h1>
         </a>
       </animated.div>
 

@@ -62,15 +62,15 @@ const Introduction = () => {
     <section id="Introduction">
       <div className="intro">
         <animated.h1 style={springH1}>Hi, my name is</animated.h1>
-        <animated.h2 style={springH2}>Bryan Yi.</animated.h2>
+        <animated.h2 style={springH2}>Catherine Njenga.</animated.h2>
         <animated.h3 style={springH3}>
           I'm a Full-Stack Web Developer.
         </animated.h3>
       </div>
       <animated.div style={springDesc} className="intro_description">
         <p>
-          I'm a web developer based in Southern California with a passion for
-          building extraordinary websites and applications.
+          I'm a self-taught web developer with a passion for building 
+          extraordinary websites and applications.
         </p>
       </animated.div>
 

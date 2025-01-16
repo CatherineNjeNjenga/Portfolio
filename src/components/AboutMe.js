@@ -38,30 +38,27 @@ const AboutMe = () => {
       <div className="aboutme_content">
         <div className="description">
           <p>
-            Hi there! I'm <span id="me">Catherine</span>, a Web Developer based in
-            Southern California, and I love creating web applications that
-            people can enjoy and use.
+            Hi there! I'm <span id="me">Catherine Njenga</span>, a Web Developer
+            and I love creating web applications that provide the clients
+            with great user experience and scale.
           </p>
-
           <p>
-            My goal is to create products that clients are proud of, and to
-            architect clean and readable code.
+            My goal is to create products with great user interface and experience, 
+            and to architect clean and readable code.
           </p>
           <p>Here are a few technologies I have been working with lately:</p>
 
           <ul className="skills">
-            <li>Next.js/Redux</li>
-            <li>Typescript</li>
-            <li>Javascript(ES6+)</li>
-            <li>SASS/SCSS</li>
-            <li>GraphQL</li>
+            <li>ReactJS</li>
             <li>Node.js/Express</li>
+            <li>Javascript(ES6+)</li>
+            <li>Bootstrap</li>
+            <li>MongoDB</li>
             <li>Postgresql</li>
-            <li>Shopify</li>
           </ul>
         </div>
         <div className="image">
-          <img src="/images/bryan_profile.jpg" alt="" />
+          <img src="/images/Catherine.png" alt="" />
         </div>
       </div>
     </section>
