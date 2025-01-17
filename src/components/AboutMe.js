@@ -39,11 +39,11 @@ const AboutMe = () => {
         <div className="description">
           <p>
             Hi there! I'm <span id="me">Catherine Njenga</span>, a Web Developer
-            and I love creating web applications that provide the clients
-            with great user experience and scale.
+            with a passion for developing web applications that make a positive
+            impact on peoples lives.
           </p>
           <p>
-            My goal is to create products with great user interface and experience, 
+            My goal is to create products with great user experience, 
             and to architect clean and readable code.
           </p>
           <p>Here are a few technologies I have been working with lately:</p>
