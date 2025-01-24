@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/worldcovidvaccinations.css";
 
-const worldcovidvaccinationsScreen = () => {
+const rateCardScreen = () => {
   return (
     <div className="worldcovidvaccinationsScreen">
       <div className="title">
@@ -15,7 +15,7 @@ const worldcovidvaccinationsScreen = () => {
               4000+ records collected from{" "}
               <span className="feat_emph">Kaggle</span> and stored in{" "}
               <span className="feat_emph">
-                AWS Relational Database Service (RDS)
+                Supabase PostgreSQL database
               </span>
               .
             </li>
@@ -23,13 +23,13 @@ const worldcovidvaccinationsScreen = () => {
               Class based views using <span className="feat_emph">Django</span>
             </li>
             <li>
-              Implemented Django to build backend{" "}
+              Flask implemented to build backend{" "}
               <span className="feat_emph">RESTful APIs</span> endpoints to serve
               JSON data constructed from raw{" "}
-              <span className="feat_emph">MySQL</span>queries
+              <span className="feat_emph">PostgreSQL</span>queries
             </li>
             <li>
-              Customized <span className="feat_emph">Chart.js</span> to display
+              Customized <span className="feat_emph">D3.js</span> to display
               data to enhance the user experience and user interface.
             </li>
           </ul>
@@ -46,4 +46,4 @@ const worldcovidvaccinationsScreen = () => {
   );
 };
 
-export default worldcovidvaccinationsScreen;
+export default rateCardScreen;

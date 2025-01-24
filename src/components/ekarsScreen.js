@@ -1,11 +1,11 @@
 import React from "react";
 import "../css/ekarsScreen.css";
 
-const ekarsScreen = () => {
+const bragBookScreen = () => {
   return (
     <div className="e-kars">
       <div className="title">
-        <h1>BragList</h1>
+        <h1>BragBook</h1>
       </div>
       <div className="key__features">
         <div className="features__list">
@@ -17,7 +17,7 @@ const ekarsScreen = () => {
             </li>
             <li>
               User Authentication using custom
-              <span className="feat_emph">Mongoonse Methods</span>
+              <span className="feat_emph">Mongoose Methods</span>
             </li>
             <li>
               Retrieving forgotten passwords with{" "}
@@ -38,14 +38,14 @@ const ekarsScreen = () => {
         <div className="project__introduction">
           <div className="image"></div>
           <div className="description">
-            E-Kars is a conceptual project that exemplifies the intricacies
-            behind an e-Commerce application. On this page, you will find more
-            technical details on how I built E-Kars.
+            Brag Book is a conceptual project that exemplifies the intricacies
+            behind a micro-blog application. On this page, you will find more
+            technical details on how I built BragBook.
           </div>
         </div>
         <div className="product__page">
           <div className="desc">
-            Data is pulled from MongoDB to display the cars on this product
+            Data is pulled from MongoDB to display all the blogs on the feed
             page. The sidebar and the navbar stores it's input values into the
             Redux store, then filtered on this page.
           </div>
@@ -68,4 +68,4 @@ const ekarsScreen = () => {
   );
 };
 
-export default ekarsScreen;
+export default bragBookScreen;

@@ -58,7 +58,7 @@ const AboutMe = () => {
           </ul>
         </div>
         <div className="image">
-          <img src="/images/Catherine.png" alt="" />
+          <img src="/images/AboutMe.jpg" alt="" />
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Projects.css";
-import Ekars from "./projects/Ekars";
-import Reddityi from "./projects/Reddityi";
+import RateCard from "./projects/RateCard";
+import BragBook from "./projects/BragBook";
 
 const Projects = () => {
   return (
@@ -17,8 +17,8 @@ const Projects = () => {
         </div> */}
       </div>
 
-      <Reddityi />
-      <Ekars />
+      <RateCard />
+      <BragBook />
     </section>
   );
 };
