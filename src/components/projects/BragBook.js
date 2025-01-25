@@ -1,6 +1,6 @@
 import React from "react";
 
-const Ekars = () => {
+const BragBook= () => {
   return (
     <div
       data-aos="fade-up"
@@ -8,7 +8,7 @@ const Ekars = () => {
       className="projects_display"
     >
       <div className="project_content">
-        <h3 className="project_title">E-Kars</h3>
+        <h3 className="project_title">BragBook</h3>
         <div className="project_description">
           <p>
             The key points of this project is to demonstrate a working knowledge
@@ -57,4 +57,4 @@ const Ekars = () => {
   );
 };
 
-export default Ekars;
+export default BragBook;

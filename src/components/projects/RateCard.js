@@ -1,6 +1,6 @@
 import React from "react";
 
-const Ekars = () => {
+const RateCard= () => {
   return (
     <div
       data-aos="fade-up"
@@ -8,22 +8,18 @@ const Ekars = () => {
       className="projects_display"
     >
       <div className="right-project_content">
-        <h3 className="project_title">Reddityi</h3>
+        <h3 className="project_title">RateCard</h3>
         <div className="right-project_description">
           <p>
             The key points of this project is to demonstrate a working knowledge of
-            of connecting a Node.js backend to a Next.js frontend using GraphQL to
-            query user posts from a PostgreSQL database and Redis for cacheing, while maintaining type safety
-            with Typescript throughout the entire stack. TypeORM is utilized to form relationships between different entities such as
-            users, posts, and votes.
+            of connecting a React.js frontend to
+            PostgreSQL database and enhancing user interaction with D3.js.
           </p>
           <ul className="right-project_tech">
-            <li>Next.js/Typescript</li>
+            <li>React</li>
             <li>Node</li>
-            <li>TypeORM</li>
-            <li>GraphQL/Apollo</li>
             <li>PostgreSQL</li>
-            <li>Docker</li>
+            <li>D3.js</li>
           </ul>
           <div className="right-project_links">
             <a
@@ -60,4 +56,4 @@ const Ekars = () => {
   );
 };
 
-export default Ekars;
+export default RateCard;
